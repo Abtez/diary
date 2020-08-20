@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "diary"
+    }
+  },
+  "defaultProject": "diary",
+  "cli": {
+    "analytics": "4ef5b5f9-4ad6-47c5-924c-8a247138216b"
+  }
 }
