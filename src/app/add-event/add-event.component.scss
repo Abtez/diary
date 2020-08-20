@@ -10,6 +10,7 @@ i{
 }
 
 i:hover{
+    cursor: pointer;
     transform: scale(1.1,);
     background-color: white;
     box-shadow: 10px 5px 10px rgb(0, 255, 213);
@@ -22,4 +23,57 @@ i:hover{
 footer{
     padding: 5px;
     
+}
+
+input[type=text]{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     border: 1px solid #2d9fd9;
+     color: #a0d18c;
+     width: 100%;
+     height: 100%;
+     padding: 5px;
+    }
+    
+input[type=text]:focus {
+     outline: none;
+     border: 1px solid #a0d18c;
+     color: #2d9fd9;
+}
+
+input[type=datetime-local]{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     border: 1px solid #2d9fd9;
+     border-radius: 10px;
+     color: #a0d18c;
+     width: 100%;
+     height: 100%;
+     padding: 5px;
+     display: flex;
+     justify-content: center;
+    }
+    
+input[type=date]:focus {
+     outline: none;
+     border: 1px solid #a0d18c;
+     color: #2d9fd9;
+}
+
+.textinput {
+    float: left;
+    width: 100%;
+    height: 200px;
+    outline: none;
+    resize: none;
+    border: 1px solid grey;
+}
+.textinput:focus{
+    box-shadow: 10px 5px 8px skyblue;
+}
+
+#maintext{
+    color: black;
 }

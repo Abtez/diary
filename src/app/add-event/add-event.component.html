@@ -1,39 +1,79 @@
 <div class="container">
+  <div class="card border-success mb-3" style="max-width: 18rem;">
+    <div class="card-header bg-transparent border-success">
+      Add New Entry To Your Diary
+    </div>
+    <div class="card-body text-success">
+      <h5 class="card-title">Diary Entry</h5>
+      <i data-toggle="modal" data-target="#diaryentry" class="fa fa-plus fa-7x" aria-hidden="true"></i>
+    </div>
+    <div class="card-footer bg-transparent border-success">
+      <button type="button" id="" class="btn btn-sm btn-outline-success">
+        View Diary
+      </button>
+    </div>
+  </div>
 
-    <div class="card border-success mb-3" style="max-width: 18rem;">
-        <div class="card-header bg-transparent border-success">Add New Entry To Your Diary</div>
-        <div class="card-body text-success">
-          <h5 class="card-title">Diary Entry</h5>
-          <i class="fa fa-plus fa-7x" aria-hidden="true"></i>
+  <div class="card border-success mb-3" style="max-width: 18rem;">
+    <div class="card-header bg-transparent border-success">
+      Add New Events To Your Diary
+    </div>
+    <div class="card-body text-success">
+      <h5 class="card-title">Events Entry</h5>
+      <i class="fa fa-plus fa-7x" aria-hidden="true"></i>
+    </div>
+    <div class="card-footer bg-transparent border-success">
+      <button type="button" id="" class="btn btn-sm btn-outline-success">
+        View Events
+      </button>
+    </div>
+  </div>
 
+  <div class="card border-success mb-3" style="max-width: 18rem;">
+    <div class="card-header bg-transparent border-success">
+      Add New Images For Your Diary
+    </div>
+    <div class="card-body text-success">
+      <h5 class="card-title">Add To Images</h5>
+      <i class="fa fa-plus fa-7x" aria-hidden="true"></i>
+    </div>
+    <div class="card-footer bg-transparent border-success">
+      <button type="button" id="" class="btn btn-sm btn-outline-success">
+        View Images
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- Modal -->
+  <div class="modal fade " id="diaryentry" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">                
+                <input class="modal-title control text-center" type="text" id="" placeholder="Enter Diary Title">  
         </div>
-        <div class="card-footer bg-transparent border-success"><button type="button" id="" class="btn btn-sm btn-outline-success">View Images</button></div>
-      </div>
 
-      <div class="card border-success mb-3" style="max-width: 18rem;">
-        <div class="card-header bg-transparent border-success">Add New Events To Your Diary</div>
-        <div class="card-body text-success">
-          <h5 class="card-title">Events Entry</h5>
-          <i class="fa fa-plus fa-7x" aria-hidden="true"></i>
-
+        <div class="modal-header text-center">
+            <input type="datetime-local" name="" id="">
         </div>
-        <div class="card-footer bg-transparent border-success"><button type="button" id="" class="btn btn-sm btn-outline-success">View Images</button></div>
-      </div>
 
-      <div class="card border-success mb-3" style="max-width: 18rem;">
-        <div class="card-header bg-transparent border-success">Add New Images For Your Diary</div>
-        <div class="card-body text-success">
-          <h5 class="card-title">Add To Images</h5>
-          <i class="fa fa-plus fa-7x" aria-hidden="true"></i>
-
+        <div class="modal-body" id="maintext" contenteditable="">
+            <textarea class="textinput" id="textarea" rows="" cols="" placeholder="Start writing..."></textarea>
         </div>
-        <div class="card-footer bg-transparent border-success"><button type="button" id="" class="btn btn-sm btn-outline-success">View Images</button></div>
-      </div>
 
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div id="footer" class="container mt-4">
-    <footer>
-        All rights reserved for Abzed Only
-    </footer>
+  <footer>
+    All rights reserved for Abzed Only
+  </footer>
 </div>
