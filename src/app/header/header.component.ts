@@ -30,7 +30,7 @@ export class HeaderComponent implements OnInit {
         $("#appname").css({
          'color':'black',
          'text-transform':'capitalize',
-         'font-size':'bolder' 
+         'font-weight':'bolder' 
         });
         $("#appname").text(diaryName);
 

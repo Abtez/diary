@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.jumbotron{
+    background-image: url("../../assets/bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+
+    h1{
+        font-size: 30px;
+    }
+}
